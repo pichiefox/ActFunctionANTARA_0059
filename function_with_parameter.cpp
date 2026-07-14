@@ -26,3 +26,9 @@ void output ()
     cout << "Luasnya : " << luasPersegi(panjang, lebar) << endl;
 }
 
+int main()
+{
+    input();
+    output();
+    cout << "Kelilingnya : " << kelilingPersegi(panjang, lebar);
+}
